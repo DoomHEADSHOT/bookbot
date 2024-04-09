@@ -1,6 +1,9 @@
-from numpy import char, sort
+import sys
+import os
+
 def main():
-    filePath = "books/frankenstein.txt"
+     
+    filePath = sys.argv[1]
     text = get_book_text(filePath)
     print(f"this book has {word_counter(text)} words")
     list = sortandreverse_dict_to_list(text)
