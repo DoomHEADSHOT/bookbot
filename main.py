@@ -1,6 +1,4 @@
 from numpy import char, sort
-
-
 def main():
     filePath = "books/frankenstein.txt"
     text = get_book_text(filePath)
